@@ -1,6 +1,5 @@
 .env
 venv/
-*.pth
 .DS_Store
 **/.DS_Store
 __pycache__/
@@ -8,6 +7,5 @@ __pycache__/
 *.pyc
 content_data/
 examples/
-experiment/
 static/
 style_data/
