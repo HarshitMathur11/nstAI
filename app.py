@@ -14,6 +14,7 @@ import io
 from utils.models import VGGEncoder, Decoder
 from utils.utils import adaptive_instance_normalization, calc_mean_std
 
+torch.set_num_threads(1)
 load_dotenv()
 
 app = Flask(__name__)
